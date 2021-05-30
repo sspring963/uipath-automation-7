@@ -3,11 +3,11 @@
   "description": "Forks GitHub repositories to a GitHub organization. Requires a valid GitHub account, the name of the organization, and an xlsx/csv file containing the URLs for each repository to fork.",
   "main": "Main.xaml",
   "dependencies": {
-    "Revature_GitHub_ActivityLibrary": "[1.0.2]",
+    "Revature_GitHub_ActivityLibrary": "[1.0.3]",
     "UiPath.Credentials.Activities": "[1.1.6479.13204]",
-    "UiPath.Excel.Activities": "[2.9.3]",
-    "UiPath.System.Activities": "[20.10.1]",
-    "UiPath.UIAutomation.Activities": "[20.10.6]"
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.System.Activities": "[21.4.0]",
+    "UiPath.UIAutomation.Activities": "[21.4.3]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -51,5 +51,6 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {}
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
